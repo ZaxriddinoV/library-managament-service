@@ -1,0 +1,18 @@
+### ADD USER
+POST localhost:8080/api/v1/users/
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTczNDUyMzcxNCwiZXhwIjoxNzM0NjEwMTE0fQ.i6sGZoNbrvLx4YkNAcowPJFi8g2a0UYjCYbF9QQb9Dg
+
+{
+  "name": "Mexriddin",
+  "phone": "998913311304",
+  "email": "zaxriddinov1707@gmail.com"
+}
+
+### Delete
+DELETE localhost:8080/api/v1/users/1
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTczNDUyMzcxNCwiZXhwIjoxNzM0NjEwMTE0fQ.i6sGZoNbrvLx4YkNAcowPJFi8g2a0UYjCYbF9QQb9Dg
+
+###
+GET localhost:8080/api/v1/users/
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTczNDUyMzcxNCwiZXhwIjoxNzM0NjEwMTE0fQ.i6sGZoNbrvLx4YkNAcowPJFi8g2a0UYjCYbF9QQb9Dg

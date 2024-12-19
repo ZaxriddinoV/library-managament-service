@@ -1,0 +1,13 @@
+### CREATE AUTHOR
+POST localhost:8080/api/v1/book-author/
+Content-Type: application/json
+
+{
+  "lastName": "Zaxriddinov",
+  "firstName": "Mexriddin"
+}
+### GET AUTHOR
+GET localhost:8080/api/v1/book-author/2
+
+### DELETE AUTHOR
+DELETE localhost:8080/api/v1/book-author/1

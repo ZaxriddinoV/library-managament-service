@@ -1,0 +1,11 @@
+### issue Book
+POST localhost:8080/api/v1/loan/issue
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTczNDUyMzcxNCwiZXhwIjoxNzM0NjEwMTE0fQ.i6sGZoNbrvLx4YkNAcowPJFi8g2a0UYjCYbF9QQb9Dg
+
+{
+  "bookId": 2,
+  "availableCount": 1,
+  "memberId": 1,
+  "dueDate": 3
+}

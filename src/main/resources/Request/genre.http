@@ -1,0 +1,7 @@
+### CREATE
+POST localhost:8080/api/v1/genre/
+Content-Type: application/json
+
+{
+  "genre": "Dramma"
+}
