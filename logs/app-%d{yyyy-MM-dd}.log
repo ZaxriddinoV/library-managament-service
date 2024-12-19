@@ -87,3 +87,46 @@
 2024-12-19T21:07:58.736+05:00  INFO 16932 --- [library-managament-service] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2024-12-19T21:07:58.740+05:00  INFO 16932 --- [library-managament-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2024-12-19T21:07:58.756+05:00  INFO 16932 --- [library-managament-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-19T21:25:37.809+05:00  INFO 6528 --- [library-managament-service] [main] .c.l.LibraryManagamentServiceApplication : Starting LibraryManagamentServiceApplication using Java 21.0.5 with PID 6528 (C:\Users\zaxri\OneDrive\Рабочий стол\full\Java\Task\library-managament-service\library-managament-service\build\classes\java\main started by zaxri in C:\Users\zaxri\OneDrive\Рабочий стол\full\Java\Task\library-managament-service\library-managament-service)
+2024-12-19T21:25:37.811+05:00  INFO 6528 --- [library-managament-service] [main] .c.l.LibraryManagamentServiceApplication : No active profile set, falling back to 1 default profile: "default"
+2024-12-19T21:25:39.765+05:00  INFO 6528 --- [library-managament-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-19T21:25:39.913+05:00  INFO 6528 --- [library-managament-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 132 ms. Found 6 JPA repository interfaces.
+2024-12-19T21:25:40.947+05:00  INFO 6528 --- [library-managament-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-19T21:25:40.969+05:00  INFO 6528 --- [library-managament-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-19T21:25:40.970+05:00  INFO 6528 --- [library-managament-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-19T21:25:41.039+05:00  INFO 6528 --- [library-managament-service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-19T21:25:41.039+05:00  INFO 6528 --- [library-managament-service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3171 ms
+2024-12-19T21:25:41.259+05:00  INFO 6528 --- [library-managament-service] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-19T21:25:41.367+05:00  INFO 6528 --- [library-managament-service] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-19T21:25:41.412+05:00  INFO 6528 --- [library-managament-service] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-19T21:25:41.818+05:00  INFO 6528 --- [library-managament-service] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-19T21:25:41.866+05:00  INFO 6528 --- [library-managament-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-19T21:25:42.121+05:00  INFO 6528 --- [library-managament-service] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@100eeedc
+2024-12-19T21:25:42.123+05:00  INFO 6528 --- [library-managament-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-19T21:25:42.211+05:00  WARN 6528 --- [library-managament-service] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-19T21:25:42.215+05:00  WARN 6528 --- [library-managament-service] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-12-19T21:25:42.251+05:00  INFO 6528 --- [library-managament-service] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-19T21:25:43.809+05:00  INFO 6528 --- [library-managament-service] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-19T21:25:43.994+05:00  INFO 6528 --- [library-managament-service] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-19T21:25:44.569+05:00  INFO 6528 --- [library-managament-service] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-12-19T21:25:45.469+05:00  WARN 6528 --- [library-managament-service] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-19T21:25:45.530+05:00  INFO 6528 --- [library-managament-service] [main] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2024-12-19T21:25:45.530+05:00  WARN 6528 --- [library-managament-service] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2024-12-19T21:25:46.451+05:00  INFO 6528 --- [library-managament-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-19T21:25:46.459+05:00  INFO 6528 --- [library-managament-service] [main] .c.l.LibraryManagamentServiceApplication : Started LibraryManagamentServiceApplication in 9.28 seconds (process running for 10.243)
+2024-12-19T21:25:46.698+05:00  INFO 6528 --- [library-managament-service] [main] org.flywaydb.core.FlywayExecutor         : Database: jdbc:mysql://localhost:3306/library?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true (MySQL 8.0)
+2024-12-19T21:25:46.764+05:00  INFO 6528 --- [library-managament-service] [main] o.f.core.internal.command.DbValidate     : Successfully validated 2 migrations (execution time 00:00.038s)
+2024-12-19T21:25:46.783+05:00  INFO 6528 --- [library-managament-service] [main] o.f.core.internal.command.DbMigrate      : Current version of schema `library`: 2
+2024-12-19T21:25:46.788+05:00  INFO 6528 --- [library-managament-service] [main] o.f.core.internal.command.DbMigrate      : Schema `library` is up to date. No migration necessary.
+2024-12-19T21:26:07.608+05:00  INFO 6528 --- [library-managament-service] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-19T21:26:07.608+05:00  INFO 6528 --- [library-managament-service] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-12-19T21:26:07.625+05:00  INFO 6528 --- [library-managament-service] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-19T21:26:07.637+05:00  INFO 6528 --- [library-managament-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-19T21:26:07.643+05:00  INFO 6528 --- [library-managament-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

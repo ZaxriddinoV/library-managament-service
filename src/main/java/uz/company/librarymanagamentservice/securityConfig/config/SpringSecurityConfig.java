@@ -45,11 +45,9 @@ public class SpringSecurityConfig {
             authorizationManagerRequestMatcherRegistry
                     .requestMatchers("/api/v1/auth/login").permitAll()
                     .requestMatchers("/api/v1/auth/register").permitAll()
-                    .requestMatchers("/api/v1/genre/").permitAll()
                     .anyRequest()
                     .authenticated();
         }).addFilterBefore(jwtAuthenticationFilter, UsernamePasswordAuthenticationFilter.class);
-
         http.csrf(AbstractHttpConfigurer::disable);
 //        http.cors(Customizer.withDefaults());
         http.cors(httpSecurityCorsConfigurer -> {
